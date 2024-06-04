@@ -19,7 +19,7 @@ def main():
                                  }
 
         for str_ in rpn_expr_list:
-            if re.fullmatch(r'[\d\.]*', str_):
+            if re.fullmatch(r'[\d.]+', str_):
                 results_deque.append(float(str_))
                 continue
 
